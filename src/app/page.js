@@ -176,7 +176,7 @@ const submitWish = async () => {
             style={{
               position: "absolute",
               inset: 0,
-              backgroundImage: "url('/images/details.JPG')",
+              backgroundImage: "url('/images/details.jPG')",
               backgroundSize: "cover",
               backgroundPosition: "center",
               filter: "blur(12px) brightness(0.2)",
@@ -295,7 +295,7 @@ const submitWish = async () => {
               style={{
                 position: "absolute",
                 inset: 0,
-                backgroundImage: "url('/images/hero.JPG')",
+                backgroundImage: "url('/images/hero.jPG')",
                 backgroundSize: "cover",
                 backgroundPosition: "center 15%",
                 filter: "brightness(0.68)",
