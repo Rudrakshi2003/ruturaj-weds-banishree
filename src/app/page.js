@@ -475,7 +475,7 @@ const submitWish = async () => {
                     fontSize: "clamp(24px, 6vw, 40px)",
                   }}
                 >
-                  Promada Chandra Mishra
+                  Pramoda Chandra Mishra
                 </h3>
 
                 <p
@@ -1153,6 +1153,16 @@ const submitWish = async () => {
     >
       Sanu 🔥
     </button>
+
+    <button
+    className="fun-btn"
+    onClick={() =>
+      setCoolResult("😂 Papun Tried Hard, But Sanu Still Wins! 😎🔥")
+    }
+  >
+    Papun 🚀
+  </button>
+
   </div>
 
   {coolResult && (
@@ -1816,6 +1826,37 @@ const submitWish = async () => {
   >
     Designed for Ruturaj ❤️ Banishree
   </p>
+  <p
+  style={{
+    marginTop: "25px",
+    color: "#f5e6c8",
+    fontSize: "16px",
+    lineHeight: "1.8",
+  }}
+>
+  Wedding Event Manager
+  <br />
+  Abhishek Tripathy
+</p>
+
+<a
+  href="https://www.instagram.com/abhishek__tripathy?igsh=MWRvZzF6MzM0b3didA=="
+  target="_blank"
+  rel="noopener noreferrer"
+  style={{
+    display: "inline-block",
+    marginTop: "15px",
+    padding: "12px 28px",
+    borderRadius: "50px",
+    border: "1px solid rgba(192,132,252,0.35)",
+    color: "#f5e6c8",
+    textDecoration: "none",
+    background: "rgba(124,58,237,0.08)",
+    fontSize: "16px",
+  }}
+>
+  Instagram 📸
+</a>
   </div>
 
 </section>
