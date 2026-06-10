@@ -219,7 +219,7 @@ const submitWish = async () => {
             >
 
               <img
-                src="/images/details.JPG"
+                src="/images/details.jPG"
                 alt="Wedding"
                 style={{
                   width: "100%",
