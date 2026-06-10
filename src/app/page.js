@@ -176,7 +176,7 @@ const submitWish = async () => {
             style={{
               position: "absolute",
               inset: 0,
-              backgroundImage: "url('/images/details.jPG')",
+              backgroundImage: "url('/images/details.jpg')",
               backgroundSize: "cover",
               backgroundPosition: "center",
               filter: "blur(12px) brightness(0.2)",
@@ -219,7 +219,7 @@ const submitWish = async () => {
             >
 
               <img
-                src="/images/details.jPG"
+                src="/images/details.jpg"
                 alt="Wedding"
                 style={{
                   width: "100%",
@@ -295,7 +295,7 @@ const submitWish = async () => {
               style={{
                 position: "absolute",
                 inset: 0,
-                backgroundImage: "url('/images/hero.jPG')",
+                backgroundImage: "url('/images/hero.jpg')",
                 backgroundSize: "cover",
                 backgroundPosition: "center 15%",
                 filter: "brightness(0.68)",
