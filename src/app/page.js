@@ -101,6 +101,23 @@ const submitWish = async () => {
 
   }, []);
 
+  useEffect(() => {
+  const stopMusic = () => {
+    if (audioRef.current) {
+      audioRef.current.pause();
+      audioRef.current.currentTime = 0;
+      setMusicPlaying(false);
+    }
+  };
+
+  window.addEventListener("beforeunload", stopMusic);
+
+  return () => {
+    stopMusic();
+    window.removeEventListener("beforeunload", stopMusic);
+  };
+}, []);
+
   const toggleMusic = () => {
 
     if (!audioRef.current) return;
@@ -233,7 +250,16 @@ const submitWish = async () => {
               {/* RB BUTTON */}
 
               <button
-                onClick={() => setOpened(true)}
+                onClick={() => {
+                  setOpened(true);
+
+                   setTimeout(() => {
+                     if (audioRef.current) {
+                        audioRef.current.play();
+                         setMusicPlaying(true);
+                        }
+                        }, 200);
+                      }}
                 style={{
                   position: "absolute",
                   left: "50%",
