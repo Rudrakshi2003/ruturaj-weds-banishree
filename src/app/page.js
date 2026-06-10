@@ -176,7 +176,8 @@ const submitWish = async () => {
             style={{
               position: "absolute",
               inset: 0,
-              backgroundImage: "url('/images/details.jpg')",
+              backgroundImage:
+               "url('https://res.cloudinary.com/dasolkbtp/image/upload/f_auto,q_auto/details.jpg_nra4jx.jpg')",
               backgroundSize: "cover",
               backgroundPosition: "center",
               filter: "blur(12px) brightness(0.2)",
@@ -295,7 +296,8 @@ const submitWish = async () => {
               style={{
                 position: "absolute",
                 inset: 0,
-                backgroundImage: "url('/images/hero.jpg')",
+                backgroundImage:
+                 "url('https://res.cloudinary.com/dasolkbtp/image/upload/f_auto,q_auto/hero_hca78d.jpg')",
                 backgroundSize: "cover",
                 backgroundPosition: "center 15%",
                 filter: "brightness(0.68)",
@@ -385,7 +387,8 @@ const submitWish = async () => {
               style={{
                 position: "absolute",
                 inset: 0,
-                backgroundImage: "url('/images/family.jpg')",
+                backgroundImage:
+                "url('https://res.cloudinary.com/dasolkbtp/image/upload/f_auto,q_auto/v1781080666/family_fbohcj.jpg')",
                 backgroundSize: "cover",
                 backgroundPosition: "center 10%",
                 filter: "brightness(0.35)",
@@ -957,7 +960,8 @@ const submitWish = async () => {
     }}
   >
     <img
-      src="/images/bride.jpg"
+        src="https://res.cloudinary.com/dasolkbtp/image/upload/f_auto,q_auto/v1781080026/bride.jpg_xb4jor.jpg"
+
       alt="Bride"
       style={{
         width: "min(280px,80vw)",
@@ -967,7 +971,8 @@ const submitWish = async () => {
     />
 
     <img
-      src="/images/bride-note.jpg"
+        src="https://res.cloudinary.com/dasolkbtp/image/upload/f_auto,q_auto/v1781080989/bride-note.jpg_bht6nb.png"
+
       alt="Bride Note"
       style={{
         width: "450px",
@@ -1001,7 +1006,7 @@ const submitWish = async () => {
     }}
   >
     <img
-      src="/images/groom-note.jpg"
+      src="https://res.cloudinary.com/dasolkbtp/image/upload/v1781081157/groom-note.jpg_pq7wcz.png"
       alt="Groom Note"
       style={{
         width: "450px",
@@ -1012,7 +1017,7 @@ const submitWish = async () => {
     />
 
     <img
-      src="/images/groom.jpg"
+      src="https://res.cloudinary.com/dasolkbtp/image/upload/v1781081390/groom.jpg_r6msna.jpg"
       alt="Groom"
       style={{
         width: "280px",
