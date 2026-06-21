@@ -997,7 +997,7 @@ const submitWish = async () => {
     />
 
     <img
-        src="https://res.cloudinary.com/dasolkbtp/image/upload/v1781082295/bride-note.jpg_epbzhp.png"
+        src="https://res.cloudinary.com/dasolkbtp/image/upload/v1782041671/bride-note.jpg_d6ytjc.jpg"
 
       alt="Bride Note"
       style={{
