@@ -1032,7 +1032,7 @@ const submitWish = async () => {
     }}
   >
     <img
-      src="https://res.cloudinary.com/dasolkbtp/image/upload/v1781081157/groom-note.jpg_pq7wcz.png"
+      src="https://res.cloudinary.com/dasolkbtp/image/upload/v1782035032/groom-note.jpg_pfatok.jpg"
       alt="Groom Note"
       style={{
         width: "450px",
