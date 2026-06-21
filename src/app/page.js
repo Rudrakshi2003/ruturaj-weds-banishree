@@ -1162,6 +1162,14 @@ const submitWish = async () => {
   >
     Papun 🚀
   </button>
+  <button
+  className="fun-btn"
+  onClick={() =>
+    setCoolResult("😎 Gudu Is Cool, But Sanu Still Rules! 🔥👑")
+  }
+>
+  Gudu 😎
+</button>
 
   </div>
 
